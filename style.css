@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #1558b0;
+}
+
+.search-box button:active {
+  scale: 0.98;
+}
+
+.city-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.temperature {
+  font-size: 64px;
+  font-weight: bold;
+  color: #1a73e8;
+  margin: 10px 0;
+}
+
+.condition {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.stat-box p {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 4px;
+}
+
+.stat-box h3 {
+  font-size: 16px;
+  color: #333;
+}
+
+.forecast-title {
+  font-size: 13px;
+  color: #999;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-day {
+  text-align: center;
+}
+
+.forecast-day p {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 4px;
+}
+
+.forecast-day h4 {
+  font-size: 14px;
+  color: #333;
+}
+
+.forecast-day span {
+  font-size: 12px;
+  color: #aaa;
+}
