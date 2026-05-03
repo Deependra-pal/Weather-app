@@ -154,6 +154,7 @@ hr {
   text-align: center;
 }
 
+
 /* ✅ body padding fix for mobile */
 @media (max-width: 480px) {
   body {
