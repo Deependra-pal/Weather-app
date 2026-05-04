@@ -6,7 +6,7 @@ A modern weather application that provides real-time weather updates and a 5-day
 
 ## 🔗 Live Demo
 
-👉 (Add your deployed link here)
+👉 weather-app-one-tau-61.vercel.app
 
 ---
 
